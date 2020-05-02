@@ -45,7 +45,7 @@ function updatePreview(json) {
       prev.find('.embed-footer-text').html(embed.footer.text || '');
     }
     if (embed.timestamp) {
-      prev.find('.embed-footer-timestamp').html(' | ' + embed.timestamp);
+      prev.find('.embed-footer-timestamp').html(' &bull; ' + embed.timestamp);
     }
     var fieldWrapper = prev.find('.embed-fields');
     fieldWrapper.html('');
